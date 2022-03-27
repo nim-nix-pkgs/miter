@@ -11,6 +11,7 @@
   inputs.src-miter-master.ref   = "refs/heads/master";
   inputs.src-miter-master.owner = "rafmst";
   inputs.src-miter-master.repo  = "miter";
+  inputs.src-miter-master.dir   = "";
   inputs.src-miter-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
